@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Application Home Page</title>
+</head>
+<body>
+
+{% if title %}
+<h1>
+    {{ title }}
+</h1>
+{% else %}
+<h1>
+    Hello, World!
+</h1>
+{% endif %}
+
+{% if article %}
+<p>
+    {{ article }}
+</p>
+{% else %}
+<p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce velit est, ultrices vitae sagittis non, ullamcorper
+    in sem. Phasellus nec dolor maximus, mollis risus sit amet, pellentesque massa. Vestibulum neque tellus, suscipit et
+    augue id, tristique dictum ante. Fusce at lacinia ipsum. In id ligula nisi. Mauris quis eros in sapien pretium
+    tincidunt. Donec erat dui, tristique at finibus in, pulvinar eget lorem. Vestibulum a arcu nec turpis ornare
+    consequat vel nec erat. Nunc id mattis libero, in efficitur enim. Mauris vestibulum, quam in elementum venenatis, ex
+    odio blandit libero, at porttitor sem nibh sed sapien. Duis rhoncus viverra auctor. Etiam pretium sem et massa porta
+    faucibus. Pellentesque eget mattis turpis, in rutrum nisl. Mauris vel elit non nunc convallis lobortis. Pellentesque
+    iaculis est ac nisl mattis egestas.
+</p>
+{% endif %}
+</body>
+</html>
