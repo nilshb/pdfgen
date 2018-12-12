@@ -9,7 +9,8 @@ wkhtmltopdf: https://github.com/JazzCore/python-pdfkit/wiki/Installing-wkhtmltop
 
 Setup
 ---------------------------------------------------------------------------------
-pipenv install
+prod: pipenv install
+dev:  pipenv install --dev
 
 Run dev
 ---------------------------------------------------------------------------------
